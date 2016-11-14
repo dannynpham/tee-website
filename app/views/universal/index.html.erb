@@ -1,0 +1,93 @@
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.title {
+  float: left;
+  font-size: 25px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+</style>
+
+<ul>
+  <li class="title">Tee Tax Services</li>
+  <li><a href="#client">Client Portal</a></li>
+  <li><a href="#payment">Make a Payment</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Contact</a>
+    <div class="dropdown-content">
+      <div href="#">Tee Nguyen</div>
+      <div href="#">(408) 234-2342</div>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Resources</a>
+    <div class="dropdown-content">
+      <a href="#">Financial Calculator</a>
+      <a href="#">Record Retention Guide</a>
+      <a href="#">IRS Publication</a>
+      <a href="#">IRS Forms</a>
+      <a href="#">Tax Appointment Checklist</a>
+      <a href="#">Tax Rates</a>
+      <a href="#">Tax Due Date</a>
+      <a href="#">Tax Glossary</a>
+      <a href="#">Tax Payer Rights</a>
+      <a href="#">Subscribe to a Tax Calendar</a>
+      <a href="#">IRS Witholding Calculator</a>
+      <a href="#">Where's My Refund?</a>
+    </div>
+  </li>
+  <li><a href="#services">Services</a></li>
+  <li><a href="#profile">Profile</a></li>
+  <li><a href="#home">Home</a></li>
+</ul>

@@ -4,6 +4,7 @@
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   width: 75%;
   margin: auto;
+  line-height: 1.5;
   #banner {
     height: 130px;
     width: 100%;
@@ -38,6 +39,14 @@
     background-color: #B2B2B2;
     height: 300px;
     width: 100%;
+    position: relative;
+    h2 {
+      color: white;
+      position: absolute;
+      top: 8%;
+      left: 10%;
+      max-width: 35%;
+    }
     #form-container {
       position: relative;
       form {

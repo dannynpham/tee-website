@@ -18,7 +18,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #666;
     .title {
       float: left;
       font-size: 25px;
@@ -35,13 +35,13 @@
     }
   }
   #form-background {
-    background-color: #999;
+    background-color: #B2B2B2;
     height: 300px;
     width: 100%;
     #form-container {
       position: relative;
       form {
-        background-color: #666;
+        background-color: #7D7270;
         border-radius: 5px;
         right: 0;
         margin: 18px 30px;
@@ -74,7 +74,7 @@
   footer {
     position: absolute;
     bottom: 0;
-    background-color: #333;
+    background-color: #666;
     color: white;
     width: 100%;
     max-width: 75%;

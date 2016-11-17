@@ -35,7 +35,7 @@
   }
   #form-background {
     background-color: #999;
-    height: 200px;
+    height: 300px;
     width: 100%;
     #form-container {
       position: relative;
@@ -43,8 +43,8 @@
         background-color: #666;
         border-radius: 10px;
         right: 0;
-        margin: 8px;
-        padding-right: 10px;
+        margin: 18px 30px;
+        padding: 15px 10px 15px 0px;
         position: absolute;
         label{
           display: inline-block;
@@ -52,13 +52,16 @@
           clear: left;
           width: 100px;
           text-align: right;
-          margin: 10px;
+          margin: 10px 10px 10px 0px;
           color: white;
         }
         input {
           margin: 5px 0px 5px 0px;
           display: inline-block;
           float: left;
+        }
+        #comment {
+          height: 60px;
         }
       }
     }

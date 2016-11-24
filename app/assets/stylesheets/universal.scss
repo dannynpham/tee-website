@@ -1,5 +1,10 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 
+$primary-color: #666;
+$secondary-color: #B2B2B2;
+$tertiary-color: #7D7270;
+$font-color: white;
+
 .container {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   width: 80%;
@@ -19,12 +24,12 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #666;
+    background-color: $primary-color;
     .title {
       float: left;
       font-size: 25px;
       display: inline-block;
-      color: white;
+      color: $font-color;
       text-align: center;
       padding: 9px 12px;
     }
@@ -36,12 +41,12 @@
     }
   }
   #form-background {
-    background-color: #B2B2B2;
+    background-color: $secondary-color;
     height: 300px;
     width: 100%;
     position: relative;
     h2 {
-      color: white;
+      color: $font-color;
       position: absolute;
       top: 8%;
       left: 10%;
@@ -53,7 +58,7 @@
         justify-content: center;
         align-content: center;
         flex-direction: column;
-        background-color: #7D7270;
+        background-color: $tertiary-color;
         border-radius: 5px;
         right: 0;
         margin: 18px 30px;
@@ -65,7 +70,7 @@
           width: 100px;
           text-align: right;
           margin: 10px 10px 10px 0px;
-          color: white;
+          color: $font-color;
         }
         input {
           margin: 5px 0px 5px 0px;
@@ -84,8 +89,8 @@
   footer {
     position: absolute;
     bottom: 0;
-    background-color: #666;
-    color: white;
+    background-color: $primary-color;
+    color: $font-color;
     width: 100%;
     max-width: 80%;
     padding: 10px;
@@ -94,7 +99,7 @@
 
 li a, .dropbtn {
   display: inline-block;
-  color: white;
+  color: $font-color;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
